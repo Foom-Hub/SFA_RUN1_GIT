@@ -2,9 +2,9 @@
   uses: actions/checkout@v2
   with:
     repository: ICT-CET-Activities/hiddenRepo
-    path: <folder of choice>
+    path: C:\Users\moof_\SFA_RUN1_GIT
     token: ${{ secrets.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}}
 - name: Show hidden files
   run: |
-    cd <folder of choice>
+    cd C:\Users\moof_\SFA_RUN1_GIT
     ls
