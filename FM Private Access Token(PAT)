@@ -2,7 +2,7 @@
   uses: actions/checkout@v2
   with:
     repository: ${{ secrets.REPO_URL}}
-    path: C:\Users\moof_\SFA_RUN1_GIT
+    path: /
     token: ${{ secrets.REPO_TOKEN}}
 - name: Show hidden files
   run: |
